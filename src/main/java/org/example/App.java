@@ -12,7 +12,6 @@ public class App {
         DatabaseUtil.createBook(2,"The Duckling", "Hans Andersen", 1943, "historic");
 
         // Read all books.
-
         System.out.println("\nTesting Read...");
         System.out.println("Books in the database:");
         DatabaseUtil.readBooks();
